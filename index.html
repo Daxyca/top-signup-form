@@ -21,39 +21,39 @@
                 <h2 class="sign-up-header-text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</h2>
                 <h2 class="sign-up-header-text">You <i>know</i> you want to.</h2>
             </header>
-            <form class="sign-up-form" class="sign-up-form">
+            <form id="sign-up" class="sign-up-form">
                 <header>
                     <h2 class="form-header">Let's do this!</h2>
                 </header>
                 <fieldset>
                     <div class="label-input-group">
                         <label for="first-name">FIRST NAME</label>
-                        <input id="first-name" name="first-name" required>
+                        <input id="first-name" minlength="1" type="text" name="first-name" required>
                     </div>
                     <div class="label-input-group">
                         <label for="last-name">LAST NAME</label>
-                        <input id="last-name" name="last-name" required>
+                        <input id="last-name" minlength="1" type="text" name="last-name" required>
                     </div>
                     <div class="label-input-group">
                         <label for="email">EMAIL</label>
-                        <input id="email" name="email" required>
+                        <input id="email" type="email" name="email" required>
                     </div>
                     <div class="label-input-group">
                         <label for="phone-number">PHONE NUMBER</label>
-                        <input id="phone-number" name="phone-number" required>
+                        <input id="phone-number" minlength="3" type="tel" name="phone-number" required>
                     </div>
                     <div class="label-input-group">
                         <label for="password">PASSWORD</label>
-                        <input id="password" name="password" required>
+                        <input id="password" minlength="8" type="password" name="password" required>
                     </div>
                     <div class="label-input-group">
                         <label for="confirm-password">CONFIRM PASSWORD</label>
-                        <input id="confirm-password" name="confirm-password" required>
+                        <input id="confirm-password" minlength="8" type="password" name="confirm-password" required>
                     </div>
                 </fieldset>
             </form>
             <footer>
-                <button class="login-button">Create Account</button>
+                <button type="submit" form="sign-up" class="login-button" >Create Account</button>
                 <p class="login-text">Already have an account? <a class="login-link" href="./login">Log in</a></p>
             </footer>
         </div>
