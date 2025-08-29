@@ -135,7 +135,7 @@ input:user-invalid {
 .login-button {
     padding: 1rem 4rem;
     border-radius: 10px;
-    background-color: #596d48;
+    background-color: #6a5652;
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -146,6 +146,6 @@ input:user-invalid {
 
 .login-link {
     text-decoration: none;
-    color: #596d48;
+    color: #6a5652;
     font-weight: bold;
 }
