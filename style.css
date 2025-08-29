@@ -1,0 +1,23 @@
+/* Inter */
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Inter Italic */
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/Inter-Italic-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Norse Bold */
+@font-face {
+  font-family: 'Norse';
+  src: url('./fonts/Norse-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
